@@ -27,7 +27,7 @@ let mySprite = sprites.create(img`
 
 ## Step 2 : Let's make Wonder Woman move!
 
-In the ``||controller||`` drawer grab the ``||controller: move mySprite with buttons||`` block. This block will let you conrol Wonder Woman with the arrow keys. Click on the **+** to change WThe vx and vy boxes represent her horizontal and vertical speed. Set them both to 150!
+In the ``||controller||`` drawer grab the ``||controller: move mySprite with buttons||`` block. This block will let you conrol Wonder Woman with the arrow keys. Click on the **+** to change your speed. The vx and vy boxes represent her horizontal and vertical speed. Set them both to 150!
 ```blocks
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . .
@@ -53,7 +53,7 @@ controller.moveSprite(mySprite, 150, 150)
 ## Step 3 : Create your maze
 
 Now, get the ``||scene: set background color||`` block. Click on the grey box to choose a color. This will end up being the color of the pathway in the maze.
-Then, get the ``||scene: set tilemap||`` block. Go to the next step in this tutorial for how to draw your maze.
+Then, get the ``||scene: set tilemap||`` block. Go to the next step in this tutorial to learn how to draw your maze.
 ```blocks
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . .
@@ -106,8 +106,8 @@ Click on the grey box to choose a color or tile for the walls of your maze, then
 Next, use the Erasor tool to draw out the maze. 
 Now, we need to show the program where the walls of the maze are. 
 Do this by clicking on the Wall tool and the Draw tool pencil. 
-Using this tool highlight all the walls that Wonder Woman should NOT be able to walk through. It should look something like this:
-// add images of design tool to illustrate this step
+Using this tool highlight all the walls that Wonder Woman should **NOT** be able to walk through. It should look something like this:
+[//]: <> (add images of design tool to illustrate this step)
 
 ## Step 5 : Create a Starting Position for Wonder Woman
 
@@ -283,4 +283,4 @@ info.startCountdown(20)
 
 ## Step 9 @unplugged
 
-[Link to next step](#recipe:https://github.com/ksavage-work/wonderw1/blob/master/artifacts.md)
+[Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonderw1/blob/master/artifacts.md)

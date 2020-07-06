@@ -12,7 +12,7 @@
         "maze.md",
         "enemies.md"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "testFiles": [
         "test.ts"
     ]
