@@ -280,4 +280,3 @@ tiles.placeOnRandomTile(mySprite, sprites.dungeon.stairWest)
 scene.cameraFollowSprite(mySprite)
 info.startCountdown(20)
 ```
-
