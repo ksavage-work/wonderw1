@@ -9,7 +9,8 @@
         "main.ts",
         "README.md",
         "artifacts.md",
-        "maze.md"
+        "maze.md",
+        "enemies.md"
     ],
     "preferredEditor": "tsprj",
     "testFiles": [

@@ -1,14 +1,14 @@
-# Add Items to Collect
+# Add Enemies
 
 ## Intro @unplugged
 
-Now let's add some artifacts that Wonder Woman can collect for points!
+Now let's add some of Wonder Woman's biggest enemies to the maze!
 
-## Step 1 : Make first item
+## Step 1 : Create your villain
 
 From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
-Click on the grey square and make an item for Wonder Woman to collect!
-It could be her golden lasso, a coin, or anything else Wonder Woman might need.
+Click on the grey square and draw a villain! 
+You could draw her enemy from the upcoming movie: **Cheetah**.
 
 ``` blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -16,14 +16,15 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 2 : Earn points when items are collected
+## Step 2 : Lose points when Wonder Woman runs into enemies
 
+Now, let's make Wonder Woman lose points when she runs into an enemy.
 First, we need to create a score tracker for the game. 
 Get the ``||info: set score to||`` block at put it in the ``||loops: on start||`` loop. 
 Now when you start the game, your score will be set to 0.
 
 Next, get the ``||info: change score by||`` block and put it in the ``||scene: on sprite of kind overlaps||`` block.
-This means that when Wonder Woman overlaps with the item, 1 point will be added to the score.
+Now, when Wonder Woman overlaps with an enemy, the player will **lose one point**.
 
 ``` blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -31,9 +32,9 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 3 : Add a sound when items are collected
+## Step 3 : Add a sound when for the enemy
 
-In ``||music||`` , get the ``||music: play sound||`` block. In the drop-down, choose the sound you want to hear when Wonder Woman picks up the item.
+In ``||music||`` , get the ``||music: play sound||`` block. In the drop-down, choose the sound that will play when you lose a point.
 
 ``` blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -42,9 +43,9 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
  
-## Step 4 : Make the item disappear when collected
+## Step 4 : Make enemies disappear
 
-From the "tile" section of ``||scene||``, get a ``||scene: set at tilemap||`` block. 
+Once you've already seen an enemy, you want it to disappear. So, from the "tile" section of ``||scene||``, get a ``||scene: set at tilemap||`` block. 
 Click on the grey box and choose the tile that matches the background of your maze.
 Replace the ``||variable: tilemap col row||`` with ``||variable: location||`` by dragging it from the ``||scene: on sprite of kind overlaps||`` block that's already in your workspace.
 
@@ -56,5 +57,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 5 : Repeat these steps to create more items for Wonder Woman to collect!
+## Step 5 : Repeat these steps to create more enemies to add to your maze!
+
+Repeat these steps to create more enemies to add to your maze!
 
