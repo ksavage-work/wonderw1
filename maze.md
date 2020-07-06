@@ -1,6 +1,6 @@
 # Wonder Woman Maze
 
-## Step 1 : Make Wonder Woman
+## Step 1 : Make Wonder Woman @fullscreen
 
 Go to the ``||sprites:Sprites||`` drawer and grab the ``||variables:set mySprite to||`` block. Put this block in the ``||loops:on start||`` loop.
 Click the grey box and draw Wonder Woman!
@@ -27,7 +27,7 @@ let mySprite = sprites.create(img`
 
 ## Step 2 : Let's make Wonder Woman move!
 
-In the ``||controller||`` drawer grab the ``||controller: move mySprite with buttons||`` block. This block will let you conrol Wonder Woman with the arrow keys. The vx and vy boxed represent her horizontal and vertical speed. Set them both to 150!
+In the ``||controller||`` drawer grab the ``||controller: move mySprite with buttons||`` block. This block will let you conrol Wonder Woman with the arrow keys. Click on the **+** to change WThe vx and vy boxes represent her horizontal and vertical speed. Set them both to 150!
 ```blocks
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . .
@@ -52,8 +52,8 @@ controller.moveSprite(mySprite, 150, 150)
 
 ## Step 3 : Create your maze
 
-First, get the ``||scene: background color||`` block. Click on the grey box to choose a color. This will end up being the color of the pathway in the maze.
-Second, get the ``||scene: set tilemap||`` block. Click on the grey box to create your maze! Go to the next step in this tutorial for how to draw your maze.
+Now, get the ``||scene: set background color||`` block. Click on the grey box to choose a color. This will end up being the color of the pathway in the maze.
+Then, get the ``||scene: set tilemap||`` block. Go to the next step in this tutorial for how to draw your maze.
 ```blocks
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . .
@@ -100,9 +100,9 @@ tiles.setTilemap(tiles.createTilemap(
         ))
 ```
 
-## Step 4 @unplugged
+## Step 4 : Draw maze
 
-Choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with your color.
+Click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with your color.
 Next, use the Erasor tool to draw out the maze. 
 Now, we need to show the program where the walls of the maze are. 
 Do this by clicking on the Wall tool and the Draw tool pencil. 
