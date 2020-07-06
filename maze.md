@@ -280,3 +280,7 @@ tiles.placeOnRandomTile(mySprite, sprites.dungeon.stairWest)
 scene.cameraFollowSprite(mySprite)
 info.startCountdown(20)
 ```
+
+## Step 9 @unplugged
+
+[Link to next step](#recipe:https://github.com/ksavage-work/wonderw1/blob/master/artifacts.md)
