@@ -24,6 +24,7 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . .
 `, SpriteKind.Player)
 ```
+
 [//]: <> (add image wonderWoman.png, https://i.imgur.com/kTUAOfg.png)
 ![Wonder Woman!](wonderWoman3.png)
 
