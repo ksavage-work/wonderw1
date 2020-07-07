@@ -25,6 +25,7 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 ```
 [//]: <> (add image wonderWoman.png)
+![Wonder Woman](https://imgur.com/kTUAOfg) 
 
 ## Step 2 : Let's make Wonder Woman move!
 
@@ -292,4 +293,4 @@ info.startCountdown(20)
 ## Step 9 @unplugged
 
 [//]: <> (add image artifactPreview.png)
-[Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonderw1/blob/master/artifacts.md)
+[Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonderw1/artifacts)
