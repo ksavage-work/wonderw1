@@ -3,12 +3,14 @@
 ## Intro @unplugged
 
 Now let's add some artifacts that Wonder Woman can collect for points!
+[//]: <> (add image artifactPreview.png)
 
 ## Step 1 : Make first item
 
-From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
-Click on the grey square and make an item for Wonder Woman to collect!
+Go to the tilemap and click on **My Tiles**. Click on the **+** and draw the artifact you want Wonder Woman to collect.
 It could be her golden lasso, a coin, or anything else Wonder Woman might need.
+From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
+Click on the grey square and click on the artifact you just made!
 
 ``` blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -56,5 +58,8 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 5 : Repeat these steps to create more items for Wonder Woman to collect!
-
+## Step 5 : 
+Repeat these steps to create more artifacts for Wonder Woman to collect   
+**OR** 
+[Click here to add enemies for Wonder Woman to face!](#recipe:https://github.com/ksavage-work/wonderw1/blob/master/enemies.md)
+[//]: <> (add image enemiesPreview.png)

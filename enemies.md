@@ -3,6 +3,7 @@
 ## Intro @unplugged
 
 Now let's add some of Wonder Woman's biggest enemies to the maze!
+[//]: <> (add image enemiesPreview.png)
 
 ## Step 1 : Create your villain
 
