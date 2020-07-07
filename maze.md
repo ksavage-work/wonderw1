@@ -25,7 +25,7 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 ```
 [//]: <> (add image wonderWoman.png)
-![Wonder Woman](https://imgur.com/kTUAOfg) 
+![Wonder Woman](https://i.imgur.com/kTUAOfg.png)
 
 ## Step 2 : Let's make Wonder Woman move!
 
