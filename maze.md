@@ -104,8 +104,12 @@ tiles.setTilemap(tiles.createTilemap(
 
 Click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with your color.
 Next, use the Erasor tool to draw out the maze. 
-Now, we need to show the program where the walls of the maze are. 
-Do this by clicking on the Wall tool and the Draw tool pencil. 
+[//]: <> (add images of design tool to illustrate this step)
+
+## Step 5 : Create the maze walls
+
+Now that we know what the maze looks like, we need to show the program where the walls of the maze are. 
+Go back to your maze in the design space and click on the Wall tool and the Draw tool pencil. 
 Using this tool highlight all the walls that Wonder Woman should **NOT** be able to walk through. It should look something like this:
 [//]: <> (add images of design tool to illustrate this step)
 
