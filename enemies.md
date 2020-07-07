@@ -7,9 +7,10 @@ Now let's add some of Wonder Woman's biggest enemies to the maze!
 
 ## Step 1 : Create your villain
 
-From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
-Click on the grey square and draw a villain! 
+Go to the tilemap and click on **My Tiles**. Click on the **+** and draw the enemy you want Wonder Woman to face.
 You could draw her enemy from the upcoming movie: **Cheetah**.
+From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
+Click on the grey square and find your villain! 
 
 ``` blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -60,5 +61,5 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 
 ## Step 5 : Repeat these steps to create more enemies to add to your maze!
 
-Repeat these steps to create more enemies to add to your maze!
+Repeat these steps to create more enemies to add to your maze or start playing!
 
