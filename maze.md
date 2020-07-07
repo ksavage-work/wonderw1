@@ -24,7 +24,6 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . .
 `, SpriteKind.Player)
 ```
-[//]: <> (add image wonderWoman.png, https://i.imgur.com/kTUAOfg.png)
 ![Wonder Woman!](wonderWoman3.png)
 
 ## Step 2 : Let's make Wonder Woman move!
@@ -106,7 +105,7 @@ tiles.setTilemap(tiles.createTilemap(
 
 Click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with your color.
 Next, use the Erasor tool to draw out the maze. 
-[//]: <> (add gif drawMaze.gif or image drawMazeBackup.png)
+
 ![Draw Maze](drawMazeBackup.png)
 
 ## Step 5 : Create the maze walls
@@ -114,7 +113,7 @@ Next, use the Erasor tool to draw out the maze.
 Now that we know what the maze looks like, we need to show the program where the walls of the maze are. 
 Go back to your maze in the design space and click on the Wall tool and the Draw tool pencil. 
 Using this tool highlight all the walls that Wonder Woman should **NOT** be able to walk through. It should look something like this:
-[//]: <> (add gif drawWalls.gif or image drawWallsBackup.png)
+
 ![Draw Walls](drawWallsBackup.png)
 
 ## Step 5 : Create a Starting Position for Wonder Woman
@@ -230,7 +229,6 @@ Get a ``||game: game over||`` block and put it inside the ``||scene: on sprite o
 
 Now, when Wonder Woman overlaps this tile, she'll get out of the maze and win the game!
 
-[//]: <> (add images endPosition.png)
 ![End Position](endPosition.png)
 
 ```blocks
@@ -295,6 +293,5 @@ info.startCountdown(20)
 
 ## Step 9 @unplugged
 
-[//]: <> (add image artifactPreview.png)
 ![Add Artifacts](artifactPreview.png)
 [Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonderw1/artifacts)
