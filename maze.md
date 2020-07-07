@@ -104,14 +104,14 @@ tiles.setTilemap(tiles.createTilemap(
 
 Click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with your color.
 Next, use the Erasor tool to draw out the maze. 
-[//]: <> (add images of design tool to illustrate this step)
+[//]: <> (add gif drawMaze.gif or image drawMazeBackup.png)
 
 ## Step 5 : Create the maze walls
 
 Now that we know what the maze looks like, we need to show the program where the walls of the maze are. 
 Go back to your maze in the design space and click on the Wall tool and the Draw tool pencil. 
 Using this tool highlight all the walls that Wonder Woman should **NOT** be able to walk through. It should look something like this:
-[//]: <> (add images of design tool to illustrate this step)
+[//]: <> (add gif drawWalls.gif or image drawWallsBackup.png)
 
 ## Step 5 : Create a Starting Position for Wonder Woman
 
@@ -225,6 +225,9 @@ Click on the grey tile and select the End tile that you chose.
 Get a ``||game: game over||`` block and put it inside the ``||scene: on sprite of kind overlaps||`` block. Switch to **WIN** .
 
 Now, when Wonder Woman overlaps this tile, she'll get out of the maze and win the game!
+
+[//]: <> (add images endPosition.png)
+
 ```blocks
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (sprite, location) {
     game.over(true)
@@ -287,4 +290,5 @@ info.startCountdown(20)
 
 ## Step 9 @unplugged
 
+[//]: <> (add image artifactPreview.png)
 [Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonderw1/blob/master/artifacts.md)
