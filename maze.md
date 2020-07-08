@@ -25,7 +25,7 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 ```
 
-![Wonder Woman](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/wonderWoman.png)
+![Wonder Woman](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/wonderWoman3.png)
 
 ## Step 2 : Let's make Wonder Woman move!
 
