@@ -1,3 +1,4 @@
+/**
 namespace myTiles {
     //% blockIdentity=images._tile
     export const tile0 = img`
@@ -122,3 +123,4 @@ tiles.placeOnRandomTile(mySprite, sprites.dungeon.stairWest)
 scene.cameraFollowSprite(mySprite)
 info.startCountdown(20)
 info.setScore(0)
+**/
