@@ -3,7 +3,7 @@
 ## Intro @unplugged
 
 Now let's add some artifacts that Wonder Woman can collect for points!
-![Artifacts!](artifactPreview.png)
+![Artifacts!](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/artifactPreview.png)
 
 ## Step 1 : Make first item
 
@@ -62,4 +62,4 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 Repeat these steps to create more artifacts for Wonder Woman to collect   
 **OR** 
 [Click here to add enemies for Wonder Woman to face!](#recipe:https://github.com/ksavage-work/wonderw1/enemies)  
-![Enemies!](enemiedPreview.png)
+![Enemies!](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/enemiesPreview.png)
