@@ -118,7 +118,7 @@ Using this tool highlight all the walls that Wonder Woman should **NOT** be able
 
 ## Step 5 : Create a Starting Position for Wonder Woman
 
-Go back to your tile map and choose a new tile from the Gallery to be the start location for Wonder Woman. Place it at the beginning of the maze.
+Go back to your tilemap and choose a new tile from the Gallery to be the start location for Wonder Woman. Place it at the beginning of the maze.
 Get the ``||scene: place mySprite on top of||`` block and put it in the ``||loops:on start||`` block. Click on the grey box and select the Start tile that you chose earlier.
 Wonder Woman should now start at this location when you play the game.
 ```blocks
@@ -222,7 +222,7 @@ tiles.placeOnRandomTile(mySprite, sprites.dungeon.stairWest)
 scene.cameraFollowSprite(mySprite)
 ```
 ## Step 7 : Create End Position 
-Go back to your tile map and choose a new tile from the Gallery to be the end location of the maze. Place it where you want the end of the maze to be.
+Go back to your tilemap and choose a new tile from the Gallery to be the end location of the maze. Place it where you want the end of the maze to be.
 Now, drag a ``||scene: on sprite of kind overlaps||`` block into the workspace. This will **NOT** go into the ``||loops:on start||`` block.
 Click on the grey tile and select the End tile that you chose.
 Get a ``||game: game over||`` block and put it inside the ``||scene: on sprite of kind overlaps||`` block. Switch to **WIN** .
