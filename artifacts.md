@@ -10,7 +10,7 @@ Now let's add some artifacts that Wonder Woman can collect for points!
 Go to the tilemap and click on **My Tiles**. Click on the **+** and draw the artifact you want Wonder Woman to collect.
 It could be her golden lasso, a coin, or anything else Wonder Woman might need.
 From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
-Click on the grey square and click on the artifact you just made!
+Click on the grey square and select the artifact you just made!
 
 ``` blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
