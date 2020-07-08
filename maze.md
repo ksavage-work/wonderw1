@@ -230,13 +230,12 @@ Get a ``||game: game over||`` block and put it inside the ``||scene: on sprite o
 
 Now, when Wonder Woman overlaps this tile, she'll get out of the maze and win the game!
 
-![End Position](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/endPosition.png)
-
 ```blocks
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (sprite, location) {
     game.over(true)
 })
 ```
+![End Position](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/endPosition.png)
 
 ## Step 8 : Finally, add a countdown timer!
 
@@ -294,5 +293,6 @@ info.startCountdown(20)
 
 ## Step 9 @unplugged
 
-![Add Artifacts](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/artifactPreview.png)
 [Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonderw1/artifacts)
+
+![Add Artifacts](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/artifactPreview.png)
